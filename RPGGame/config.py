@@ -1,5 +1,3 @@
-# WIN_WIDTH = 640
-# WIN_HEIGHT = 480
 WIN_WIDTH = 1280
 WIN_HEIGHT = 960
 TILESIZE = 32
@@ -22,25 +20,6 @@ GOLD = (255, 215, 0)
 
 #the code above us signifies the RGB color of the self.image.fill function
 #RED = (#REDamount, #GREENamount, #BLUEamount) you can adjust it however you want it scales from 0 to 255
-
-# tilemap = [
-#     'BBBBBBBBBBBBBBBBBBBB',
-#     'B.....BBBBBBB......B',
-#     'B.....B..P..B......B',
-#     'B.....B.....B......B',
-#     'B.....B.....B......B',
-#     'B.....B.....B......B',
-#     'B....B.......B.....B',
-#     'B...B.........B....B',
-#     'B..B...........B...B',
-#     'B.......BBB.....B..B',
-#     'B..................B',
-#     'B..E...........E...B',
-#     'B..................B',
-#     'B..................B',
-#     'BBBBBBBBBBBBBBBBBBBB',
-
-# ]
 
 tilemap = [
     'BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB',
@@ -75,14 +54,3 @@ tilemap = [
     'BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB',
 
 ]
-
-    # def win_screen(selfd):
-    #     totalE = 0
-    #     for i, row in enumerate(tilemap):
-    #         for j, column in enumerate(row):
-    #             if column == "E":
-    #                 totalE += 1
-    #                 print(totalE)
-
-    #     if totalE == 17:
-    #         print('You won') 
